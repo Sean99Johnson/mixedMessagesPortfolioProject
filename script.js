@@ -12,14 +12,13 @@ const messageData = {
         'Beneteau Sense 50',
         'Nonsuch 30'],
     sailingQuotes: [
-        'The goal is not to sail the boat, but rather to help the boat sail herself.',
-        'Anyone can hold the helm when the sea is calm.',
-        'It is the set of the sails, not the direction of the wind that determines which way we will go.',
-        'A smooth sea never made for a skilled sailor.',
-        'Come sail away with me.',
-        'Freedom, open air, and adventure are found on the sea.',
-        'Seas the day!',
-        'Home is where the anchor drops.'],
+        'the goal is not to sail the boat, but rather to help the boat sail herself.',
+        'anyone can hold the helm when the sea is calm.',
+        'it is the set of the sails, not the direction of the wind that determines which way we will go.',
+        'a smooth sea never made for a skilled sailor.',
+        'freedom, open air, and adventure are found on the sea.',
+        'seas the day!',
+        'home is where the anchor drops.'],
     getTemperature() { //Returns temperature between 0 & 100 degrees Farenheight as a number.
         return Math.floor(Math.random()*101);
     },
