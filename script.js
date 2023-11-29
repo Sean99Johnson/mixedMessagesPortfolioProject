@@ -23,7 +23,7 @@ const messageData = {
     getTemperature() { //Returns temperature between 0 & 100 degrees Farenheight as a number.
         return Math.floor(Math.random()*101);
     },
-    getWindSpeed() {
-        
+    getWindSpeed() { //Returns wind speeds in increments of 5 between 0 & 40 kts as a number.
+        return Math.floor(Math.random()*9)*5;
     }
 };
