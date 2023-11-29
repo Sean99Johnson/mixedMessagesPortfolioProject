@@ -1,16 +1,16 @@
 //Object that stores data and methods for creating the random message.
 const messageData = {
     sailboat: [
-        'Moore 24',
-        'Pearson Vanguard',
-        'Dufour Arpege 30',
-        'Alerion Express 28',
-        'Mason 43/44',
-        'Jeanneau Sun Odyssey 43DS',
-        'Nor’Sea 27',
-        'Freedom 40',
-        'Beneteau Sense 50',
-        'Nonsuch 30'],
+        'a Moore 24',
+        'a Pearson Vanguard',
+        'a Dufour Arpege 30',
+        'an Alerion Express 28',
+        'a Mason 44',
+        'a Jeanneau Sun Odyssey 43DS',
+        'a Nor’Sea 27',
+        'a Freedom 40',
+        'a Beneteau Sense 50',
+        'a Nonsuch 30'],
     sailingQuotes: [
         'the goal is not to sail the boat, but rather to help the boat sail herself.',
         'anyone can hold the helm when the sea is calm.',
@@ -33,7 +33,10 @@ const logRandomMessage = () => {
     const randomQuote = messageData.sailingQuotes[Math.floor(Math.random() * messageData.sailingQuotes.length)];
     const randomTemp = messageData.getTemperature();
     const randomWindSpeed = messageData.getWindSpeed();
-    console.log(`Ahoy! Welcome to the sailing life. You'll be sailing a ${randomSailboat}. The temperature is forecast to be ${randomTemp} degrees Fahrenheit with winds maxing out at ${randomWindSpeed}kts! This should be a peace of cake, and remember that "${randomQuote}"`)
+    console.log(`Ahoy, welcome to the sailing life!`);
+    console.log(`You'll be sailing ${randomSailboat}.`);
+    console.log(`The temperature is forecast to be ${randomTemp} degrees Fahrenheit with winds maxing out at ${randomWindSpeed}kts!`);
+    console.log(`This should be a peace of cake, and remember "${randomQuote}"`);
 }
 
 logRandomMessage();
