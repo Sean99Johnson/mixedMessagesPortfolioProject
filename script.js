@@ -20,8 +20,8 @@ const messageData = {
         'Freedom, open air, and adventure are found on the sea.',
         'Seas the day!',
         'Home is where the anchor drops.'],
-    getTemperature() {
-
+    getTemperature() { //Returns temperature between 0 & 100 degrees Farenheight as a number.
+        return Math.floor(Math.random()*101);
     },
     getWindSpeed() {
         
