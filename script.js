@@ -26,3 +26,14 @@ const messageData = {
         return Math.floor(Math.random()*9)*5;
     }
 };
+
+//Function that logs the randomized message to the console.
+const logRandomMessage = () => {
+    const randomSailboat = messageData.sailboat[Math.floor(Math.random() * messageData.sailboat.length)];
+    const randomQuote = messageData.sailingQuotes[Math.floor(Math.random() * messageData.sailingQuotes.length)];
+    const randomTemp = messageData.getTemperature();
+    const randomWindSpeed = messageData.getWindSpeed();
+    console.log(`Ahoy! Welcome to the sailing life. You'll be sailing a ${randomSailboat}. The temperature is forecast to be ${randomTemp} degrees Fahrenheit with winds maxing out at ${randomWindSpeed}kts! This should be a peace of cake, and remember that "${randomQuote}"`)
+}
+
+logRandomMessage();
