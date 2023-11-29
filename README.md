@@ -1,7 +1,7 @@
 # Mixed Messages Portfolio Project
 
 ### Description
-The purpose of this project is to compelte the Codecademy Mixed Messages Portfolio Project.
+The purpose of this project is to complete the Codecademy Mixed Messages Portfolio Project.
 
 ### Features
 This project will create a program that outputs a new, randomized, message everytime someone runs the program.
